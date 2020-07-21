@@ -277,12 +277,10 @@ class _MyHomePageState extends State<MyHomePage> {
                         ),
                         pointers: <GaugePointer>[
                           RangePointer(
-                              value: _value4,
-                              width: 0.05,
-                              sizeUnit: GaugeSizeUnit.factor,
-                              enableAnimation: false,
-                              animationDuration: 1000,
-                              animationType: AnimationType.linear)
+                            value: _value4,
+                            width: 0.05,
+                            sizeUnit: GaugeSizeUnit.factor,
+                          )
                         ],
                       ),
                       // Create secondary radial axis for segmented line
